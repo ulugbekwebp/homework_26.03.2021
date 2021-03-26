@@ -1,0 +1,147 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 30px;
+  background: #78d4d4;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+
+h2{
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.model{
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+p{
+  margin: 0;
+  display: inline-block;
+}
+
+.checkbox_list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.checkbox{
+  position: absolute;
+  top: 2px;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgb(190, 190, 190);
+}
+
+.checkbox_input:checked + .checkbox{
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  background-color: orange;
+}
+
+.check{
+  position: relative;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.check_text{
+  margin-left: 25px;
+}
+
+.button{
+  border: none;
+  background: none;
+  border-bottom: 1px solid orange;
+  color: orange;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+.technology_radio{
+  position: relative;
+  display: flex;
+}
+
+.technology_list{
+  width: 100px;
+}
+
+.technology_input:checked + .checkbox{
+  background-image: url(../img/check.svg);
+  background-color: orange;
+}
+
+.technology{
+  margin-bottom: 35px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.get_text{
+  padding: 5px 10px;
+  color: rgb(167, 162, 162);
+  background-color:  rgb(212, 212, 212);
+}
+
+input:checked + .get_text{
+  color: #fff;
+  background: linear-gradient(91.1deg, #9710E9 1.17%, #fd8d43 99.31%);
+}
+
+.stock_list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.stock_item{
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+
+.stock_item:last-child{
+  margin-bottom: 0;
+}
+
+.countries_list{
+  display: flex;
+  flex-wrap: wrap;
+}
