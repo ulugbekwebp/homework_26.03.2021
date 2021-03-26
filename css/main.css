@@ -81,6 +81,7 @@ p{
 
 .check_text{
   margin-left: 25px;
+  display: inline-block;
 }
 
 .button{
