@@ -59,12 +59,13 @@ p{
 }
 
 .checkbox{
-  position: absolute;
+  /* position: absolute; */
   top: 2px;
   width: 15px;
   height: 15px;
   background-color: #fff;
   box-shadow: 0 0 0 1px rgb(190, 190, 190);
+  margin-right: 20px;
 }
 
 .checkbox_input:checked + .checkbox{
@@ -75,14 +76,11 @@ p{
 
 .check{
   position: relative;
-  width: 100px;
+  width: 50%;
   margin-bottom: 15px;
 }
 
-.check_text{
-  margin-left: 25px;
-  display: inline-block;
-}
+
 
 .button{
   border: none;
@@ -132,6 +130,11 @@ input:checked + .get_text{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 35px;
+}
+
+label{
+  display: flex;
+  align-items: flex-start;
 }
 
 .stock_item{
